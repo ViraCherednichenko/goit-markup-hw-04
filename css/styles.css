@@ -115,6 +115,9 @@ ul{
 .naw-item:hover .naw-item:active {
   color: #404bbf;
 }
+.naw-item link{
+  color: #404bbf; 
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
