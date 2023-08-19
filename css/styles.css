@@ -418,10 +418,13 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.11%
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
-margin: 72px;
+margin-bottom: 72px;
+}
+.customers{
+  padding: 120px 0 120px;
 }
 .customers-content-list{
   display: flex;
