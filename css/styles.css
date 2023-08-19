@@ -381,6 +381,7 @@ ul{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 
 }
 .team-content-list{
@@ -410,7 +411,41 @@ ul{
 .team-icon{
   fill:#f4f4fd;
 }
+.customers-title{
+  color: var(--navyblue, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11%
+letter-spacing: 0.72px;
+text-transform: capitalize;
+margin: 72px;
+}
+.customers-content-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px; 
+}
+.customers-content-list-item{
+  width: 168px;
+height: 88px;
+border-radius: 4px;
+border: 1px solid var(--lightslate, #8E8F99);
 
+}
+.customers-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 32px;
+  color: #8E8F99;
+}
+.costomers-icon-logo{
+  fill: #8E8F99;
+}
 .footer {
   padding: 100px 0px 100px;
   background-color: var(--navyblue);
