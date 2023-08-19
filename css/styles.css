@@ -95,7 +95,23 @@ ul{
   align-self: center;
   gap: 40px;
 }
-
+.naw-item {
+  display: block;
+  padding: 24px 0;
+  color: var(--navyblue);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.naw-item:hover,
+.naw-item:focus {
+  color: #404bbf;
+}
+.naw-item:hover .naw-item:active {
+  color: #404bbf;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -116,23 +132,7 @@ ul{
 }
 
 
-.naw-item {
-  display: block;
-  padding: 24px 0;
-  color: var(--navyblue);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.naw-item:hover,
-.naw-item:focus {
-  color: #404bbf;
-}
-.naw-item:hover .naw-item:active {
-  color: #404bbf;
-}
+
 .adress {
   font-style: normal;
 }
