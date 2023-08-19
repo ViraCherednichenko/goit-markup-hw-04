@@ -447,12 +447,13 @@ height: 88px;
   height: 100%;
   border-radius: 4px;
 border: 1px solid var(--lightslate, #8E8F99);
+transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
 
 .customers-icon-logo{
-  fill: #8E8F99;
+  fill:currentColor ;
 }
 .customers-logo:hover,
 .customers-logo:focus{
