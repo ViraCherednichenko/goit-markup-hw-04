@@ -80,6 +80,7 @@ ul{
 .link {
   text-decoration: none;
   position: relative;
+  color: #404bbf; 
 }
 .list {
   list-style: none;
