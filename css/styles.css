@@ -79,6 +79,7 @@ ul{
 }
 .link {
   text-decoration: none;
+  position: relative;
 }
 .list {
   list-style: none;
