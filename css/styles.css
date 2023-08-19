@@ -5,8 +5,8 @@ font-family: "Relawey", sans-serif;
 
 *,
 *::after,
-*::before{
-	box-sizing: border-box;
+*::before {
+  box-sizing: border-box;
 }
 img {
   display: block;
@@ -48,17 +48,19 @@ h6,
 p {
   margin: 0;
 }
-ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
-.header-content{
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,11 +83,9 @@ ul{
   text-decoration: none;
   position: relative;
   color: #404bbf;
-  
 }
 .list {
   list-style: none;
-  
 }
 .nav {
   display: flex;
@@ -134,9 +134,6 @@ ul{
 .service {
   padding-top: 0;
 }
-
-
-
 
 .adress {
   font-style: normal;
@@ -191,7 +188,10 @@ ul{
 .filter-button:focus {
   border: 1px solid transparent;
   color: #fff;
-  background: var(--ocean);
+  border-radius: 4px;
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .container-galery {
   padding: 32px 16px;
@@ -241,8 +241,7 @@ ul{
   max-width: 1440px;
   margin: 0 auto;
   background-repeat: no-repeat;
-  background-position: center; 
-
+  background-position: center;
 }
 .hero-title {
   max-width: 496px;
@@ -273,7 +272,7 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -338,7 +337,6 @@ ul{
 }
 .team-content {
   padding: 32px 0;
-  
 }
 .team-title {
   margin-bottom: 72px;
@@ -360,8 +358,7 @@ ul{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-subtitle {
@@ -383,97 +380,90 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin-bottom: 8px;
-
 }
-.team-content-list{
+.team-content-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px; 
+  gap: 24px;
 }
 
-
-.team-icon-social{
+.team-icon-social {
   width: 40px;
-  height: 40px; 
+  height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-social:hover,
-.team-icon-social:focus{
-  background-color: #404bbf; 
+.team-icon-social:focus {
+  background-color: #404bbf;
 }
 
-.team-icon{
-  fill:#f4f4fd;
+.team-icon {
+  fill: #f4f4fd;
 }
-.customers-title{
-  color: var(--navyblue, #2E2F42);
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.72px;
-text-transform: capitalize;
-margin-bottom: 72px;
+.customers-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
-.customers{
+.customers {
   padding: 120px 0 120px;
 }
-.customers-content-list{
+.customers-content-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px; 
+  gap: 24px;
 }
-.customers-content-list-item{
+.customers-content-list-item {
   width: 168px;
-height: 88px;
-
+  height: 88px;
 }
-.customers-logo{
+.customers-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 16px 32px;
-  color: #8E8F99;
+  color: #8e8f99;
   width: 100%;
   height: 100%;
   border-radius: 4px;
-border: 1px solid var(--lightslate, #8E8F99);
-transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  border: 1px solid var(--lightslate, #8e8f99);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-.customers-icon-logo{
- fill: currentColor;
+.customers-icon-logo {
+  fill: currentColor;
 }
 .customers-logo:hover,
-.customers-logo:focus{
+.customers-logo:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
 .footer {
   padding: 100px 0px 100px;
   background-color: var(--navyblue);
-   }
-   .footer-container{
-    display: flex; 
-    align-items: baseline;
-
-   }
-   .footer-content {
-    margin-right: 120px;
-
-  }
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-content {
+  margin-right: 120px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -502,14 +492,14 @@ transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-be
 .footer-social {
 }
 .footer-social-text {
-  color: var(--white, #FFF);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.32px;
-margin-bottom: 16px;
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 .footer-social-list {
   display: flex;
@@ -517,26 +507,23 @@ margin-bottom: 16px;
 }
 
 .footer-social-list-item {
-width: 40px;
-height: 40px;
-
+  width: 40px;
+  height: 40px;
 }
 .footer-icon-social {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-  border-radius:50%;
+  border-radius: 50%;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-social:hover,
-.footer-icon-social:focus{
+.footer-icon-social:focus {
   background-color: #31d0aa;
 }
 .footer-icon {
-  fill:#f4f4fd;
-
+  fill: #f4f4fd;
 }
