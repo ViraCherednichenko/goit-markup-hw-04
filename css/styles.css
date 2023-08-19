@@ -136,6 +136,7 @@ ul{
 
 
 
+
 .adress {
   font-style: normal;
 }
@@ -398,12 +399,16 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center; 
-  
+
+}
+.team-icon-social:hover,
+.team-icon-social:focus{
+  background-color: #404bbf; 
 }
 
-
-
-
+.team-icon{
+  fill:#f4f4fd;
+}
 
 .footer {
   padding: 100px 0px 100px;
