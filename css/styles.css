@@ -243,8 +243,8 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.galery-link:hover .galery-img-p
-{
+.galery-link:hover .galery-img-p,
+.galery-link:focus .galery-img-p{
   transform: translateY(0%);
  
 }
