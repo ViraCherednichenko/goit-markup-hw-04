@@ -244,7 +244,7 @@ ul {
   color: #2e2f42;
 }
 .galery-link:hover .galery-img-p
-.galery-link:focus .galery-img-p{
+{
   transform: translateY(0%);
  
 }
@@ -631,6 +631,7 @@ ul {
 .modal-btn:focus {
   background-color: #404bbf; 
  border: none;
+   fill: #ffffff;
 }
 
 .modal-btn-icon{
@@ -638,5 +639,5 @@ ul {
 }
 .modal-btn-icon:hover,
 .modal-btn-icon:focus{
-  fill: #ffffff;
+
 }
