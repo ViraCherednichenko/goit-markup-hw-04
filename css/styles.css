@@ -297,13 +297,13 @@ align-items: center;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .ourportfolio-list-item {
- width: calc((100% - 48px)/3)
-
-
+width: calc((100% - 48px)/3)
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
 }
 .ourportfolio-list-item:hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -331,6 +331,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.ourportfolio-img {
+overflow: hidden;
+position: relative;
 }
 .overlay {
 overflow: hidden;
@@ -400,7 +404,7 @@ height: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 .footer-social-link:focus {
 background-color: #31d0aa;
